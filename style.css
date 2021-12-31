@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    line-height: 26px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
+    line-height: 0px;
+}
+h4{
+    font-size: 25px;
+    font-weight: 700;
+  
+}
+.orange-color{
+    color: orange;
+}
+.gray-color{
+    color: gray;
+}
+.flexible-container{
+    display: flex;
+    padding: 10px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    padding: 20px;
+}
+.half-width img{
+    width: 93%;
+    height: 85%;
+}
+.button-first{
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+}
+.second-section{
+    background-image: url('images/shapes/7.png');
+    background-repeat: no-repeat;
+    /* background-position: left; */
+}
+#second-half-img{
+    width: 70%;
+    height: 80%;
+}
+.third-section{
+
+}
+.heading{
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    
+}
+.recepi-items{
+    width: 30%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 10px;
+}
+.recepi-items img{
+    width: 100%;
+}
+.company-statistic{
+    margin: 4%;
+    box-shadow: 2px 3px 10px gray;
+    border-radius: 10px;
+}
+.company-statistic .item{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+footer .center{
+    text-align: center;
+    line-height: 0px;
+}
